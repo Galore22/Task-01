@@ -22,7 +22,6 @@ public class Main {
 
         System.out.print("Do you want to enter number of lines to read? (Yes - enter 1, NO - any symbol): ");
         par2 = user_input.next( );
-        System.out.println(par2);
         if (par2.equals("1")){
             System.out.print("Enter number of lines to read from file: ");
             String par3 = user_input.next( );
