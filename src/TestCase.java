@@ -2,6 +2,7 @@
  * Created by Gleb on 29.05.2016.
  *
  * path = "D:\\Git\\Auto01\\test-cases.txt";
+ * path = "D:\\Git\\Auto01\\empty.txt";
  */
 
 import java.io.BufferedReader;
