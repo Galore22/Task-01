@@ -40,7 +40,12 @@ public class TestCase {
 
             for (int i=0; i<count; i++){
                 row = bufferedReader.readLine();
-                lines[i] = row;
+                if (!row.equals(null))
+                    lines[i] = row;
+                else {
+                    lines[i] = "";
+                    return lines;
+                }
             }
             fileReader.close();
             return lines;
